@@ -11,10 +11,22 @@
 	background: transparent url('/assets/images/banner.jpg') no-repeat left top !important;
 	background-size: cover;
 }
+
+#amenities-banner {
+  background: transparent url('/assets/images/ameneties/amenities-bg.png') no-repeat left top !important;  
+  background-size: auto;  
+}
+
 .container-fluid{
   section:before {
     height: 80px;
     content: "";
     display:block;
   }
+ }
+
+ .footer {
+ a {
+ color: white;
+ }
  }
