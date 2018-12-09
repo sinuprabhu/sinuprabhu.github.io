@@ -6,3 +6,15 @@
   background-size: cover;
   height: 100vh;
 }
+
+#home-banner {
+	background: transparent url('/assets/images/banner.jpg') no-repeat left top !important;
+	background-size: cover;
+}
+.container-fluid{
+  section:before {
+    height: 80px;
+    content: "";
+    display:block;
+  }
+ }
