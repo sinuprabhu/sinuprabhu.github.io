@@ -19,12 +19,18 @@
 
 .container-fluid{
   section:before {
-    height: 80px;
+    /*height: 80px;*/
     content: "";
     display:block;
   }
  }
 
+ .navbar-nav a{
+/*    color: white !important;
+*/    
+  font-size: 1rem !important;
+  font-weight: bold;
+}
  .footer {
  a {
  color: white;
